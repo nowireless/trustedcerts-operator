@@ -23,7 +23,7 @@
 #
 apiVersion: v2
 name: trustedcerts-operator
-version: 0.6.1-nowireless
+version: 0.7.0-nowireless
 description: TrustedCerts Operator
 keywords:
   - trustedcerts
