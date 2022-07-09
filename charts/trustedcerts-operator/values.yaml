@@ -22,8 +22,8 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 image:
-  repository: artifactory.algol60.net/csm-docker/stable/trustedcerts-operator
-  tag: 0.3.0
+  repository: ghcr.io/nowireless/trustedcerts-operator
+  tag: v0.3.1
   pullPolicy: IfNotPresent
 
 # watchNamespaces must contain namespaces that the operator
