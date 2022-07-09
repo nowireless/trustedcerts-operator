@@ -22,7 +22,7 @@
 # OTHER DEALINGS IN THE SOFTWARE.
 #
 # Build the manager binary
-FROM artifactory.algol60.net/docker.io/golang:1.14.15-alpine3.13 AS builder
+FROM golang:1.14.15-alpine3.13 AS builder
 
 RUN apk add --upgrade apk-tools &&  \
   apk update && apk -U upgrade && \
@@ -55,7 +55,7 @@ RUN ./util/golint -set_exit_status ./cmd/... ./internal/...
 # Build
 RUN go build -mod="vendor" -a -o manager ./cmd/manager/main.go
 
-FROM artifactory.algol60.net/csm-docker/stable/docker.io/library/alpine:3
+FROM alpine:3
 
 WORKDIR /
 COPY --from=builder /workspace/manager .
