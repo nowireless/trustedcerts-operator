@@ -4,6 +4,23 @@ entries:
   - annotations:
       artifacthub.io/license: MIT
     apiVersion: v2
+    created: "2022-07-09T03:01:36.792019169Z"
+    description: TrustedCerts Operator
+    digest: 3c1bb151ade5bbd85d92ba4730b549cffb9641e8213022bbea07c54e6d7e959f
+    home: https://github.com/Cray-HPE/trustedcerts-operator
+    keywords:
+    - trustedcerts
+    maintainers:
+    - name: kburns-hpe
+    name: trustedcerts-operator
+    sources:
+    - https://github.com/Cray-HPE/trustedcerts-operator
+    urls:
+    - https://github.com/nowireless/trustedcerts-operator/releases/download/trustedcerts-operator-0.7.0-nowireless/trustedcerts-operator-0.7.0-nowireless.tgz
+    version: 0.7.0-nowireless
+  - annotations:
+      artifacthub.io/license: MIT
+    apiVersion: v2
     created: "2022-07-09T02:44:01.430559972Z"
     description: TrustedCerts Operator
     digest: d452deb9f475a92103ad8bf713dd390c46163699901ee55696da290ee348a7a7
