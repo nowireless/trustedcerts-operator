@@ -1,0 +1,21 @@
+apiVersion: v1
+entries:
+  trustedcerts-operator:
+  - annotations:
+      artifacthub.io/license: MIT
+    apiVersion: v2
+    created: "2022-07-09T02:10:04.080693633Z"
+    description: TrustedCerts Operator
+    digest: dcc0f3d7c39b3ba23adc666a302a500384775a19911f26bbedbe8f6bb2b93541
+    home: https://github.com/Cray-HPE/trustedcerts-operator
+    keywords:
+    - trustedcerts
+    maintainers:
+    - name: kburns-hpe
+    name: trustedcerts-operator
+    sources:
+    - https://github.com/Cray-HPE/trustedcerts-operator
+    urls:
+    - https://github.com/nowireless/trustedcerts-operator/releases/download/trustedcerts-operator-0.6.0/trustedcerts-operator-0.6.0.tgz
+    version: 0.6.0
+generated: "2022-07-09T02:10:03.817609522Z"
